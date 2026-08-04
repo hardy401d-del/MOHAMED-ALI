@@ -1,0 +1,17 @@
+{
+  "name": "Coach Mohamed Ali — Machine de Métamorphose",
+  "short_name": "Coach M.A.",
+  "description": "Préparation d'élite au concours de la magistrature — ENMG Madagascar",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0C0E0D",
+  "theme_color": "#0C0E0D",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
