@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Coach Mohamed Ali — Machine de Métamorphose</title>
+<meta name="description" content="Application d'élite pour la préparation au concours de la magistrature — ENMG Madagascar">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0C0E0D">
+
+<link rel="icon" href="icons/favicon.ico" sizes="any">
+<link rel="icon" href="icons/icon-192.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Coach Mohamed Ali — Machine de Métamorphose">
+<meta property="og:description" content="Préparation d'élite au concours de la magistrature — ENMG Madagascar. Bibliothèque interne, Sas de Triage, Filtre Anti-Banalisation.">
+<meta property="og:image" content="icons/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Coach Mohamed Ali — Machine de Métamorphose">
+<meta name="twitter:description" content="Préparation d'élite au concours de la magistrature — ENMG Madagascar.">
+<meta name="twitter:image" content="icons/og-image.png">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-shell">
+
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-seal">MA</div>
+      <div class="brand-text">
+        <h1>Coach Mohamed Ali</h1>
+        <span>Machine de métamorphose</span>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <div class="nav-item active" data-view="accueil"><span class="n-icon">◆</span> Forteresse</div>
+      <div class="nav-item" data-view="bibliotheque"><span class="n-icon">◆</span> Bibliothèque</div>
+      <div class="nav-item" data-view="triage"><span class="n-icon">◆</span> Sas de Triage</div>
+      <div class="nav-item" data-view="stats"><span class="n-icon">◆</span> Statistiques</div>
+      <div class="nav-item" data-view="alarmes"><span class="n-icon">◆</span> Alarmes</div>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="streak-badge" id="streak-badge"><span>SUJETS SAIGNÉS</span><b>0</b></div>
+      <div style="margin-top:12px;">ENMG · MAGISTRATURE<br>ZÉRO IMPASSE</div>
+    </div>
+  </aside>
+
+  <main class="main" id="main-view"></main>
+
+</div>
+
+<script src="js/db.js"></script>
+<script src="js/courses-data.js"></script>
+<script src="js/subjects-data.js"></script>
+<script src="js/anti-banalisation.js"></script>
+<script src="js/reminders.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
